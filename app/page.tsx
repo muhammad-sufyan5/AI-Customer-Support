@@ -187,7 +187,7 @@ export default function LandingPage() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
           >
-            Dive In with us and Experience More!
+            Dive In with us to Experience More!
           </motion.h2>
           <Link href="/auth">
             <motion.button
