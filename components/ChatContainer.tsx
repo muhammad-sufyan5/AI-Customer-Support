@@ -25,7 +25,7 @@ const ChatContainer: React.FC<ChatContainerProps> = ({ children, onSendMessage }
 
   return (
     <div className="flex flex-col items-center p-11">
-      <div className="w-[520px] h-[650px] bg-black/30 border border-gray-700 rounded-lg overflow-hidden flex flex-col">
+      <div className="w-[520px] h-[650px] sm:w-[300px] sm:h-[400px] bg-black/30 border border-gray-700 rounded-lg overflow-hidden flex flex-col">
         <div className="flex-grow p-4 bg-black/1 overflow-y-auto">
           {children}
         </div>
@@ -48,6 +48,8 @@ const ChatContainer: React.FC<ChatContainerProps> = ({ children, onSendMessage }
       </div>
     </div>
   );
+  
+  
 };
 
 export default ChatContainer; 
