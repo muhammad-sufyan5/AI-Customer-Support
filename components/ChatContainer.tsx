@@ -50,4 +50,4 @@ const ChatContainer: React.FC<ChatContainerProps> = ({ children, onSendMessage }
   );
 };
 
-export default ChatContainer;
+export default ChatContainer; 

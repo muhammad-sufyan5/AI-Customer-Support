@@ -159,7 +159,7 @@ export default function LandingPage() {
             whileHover={{ scale: 1.05 }}
           >
             <p>"I appreciate how user-friendly and responsive this app is. It simplifies our daily communication and enhances our productivity."</p>
-            <p className="mt-4 font-semibold">- Subhan Ali</p>
+            <p className="mt-4 font-semibold">- Subhan Ali</p>            
           </motion.div>
           <motion.div
             className="p-6 bg-white rounded-lg shadow-lg hover:bg-gray-50 transition"
@@ -187,7 +187,7 @@ export default function LandingPage() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
           >
-            Dive In and Experience More!
+            Dive In with us to Experience More!
           </motion.h2>
           <Link href="/auth">
             <motion.button
